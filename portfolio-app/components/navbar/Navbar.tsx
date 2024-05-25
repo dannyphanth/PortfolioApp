@@ -11,19 +11,19 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center space-x-1">
-                        <Link href="#about" className="py-5 px-3 text-gray-700 hover:text-gray-900">
+                        <Link href="/about" className="py-5 px-3 text-gray-700 hover:text-gray-900">
                             About
                         </Link>
-                        <Link href="#skills" className="py-5 px-3 text-gray-700 hover:text-gray-900">
+                        <Link href="/skills" className="py-5 px-3 text-gray-700 hover:text-gray-900">
                             Skills
                         </Link>
-                        <Link href="#experience" className="py-5 px-3 text-gray-700 hover:text-gray-900">
+                        <Link href="/experience" className="py-5 px-3 text-gray-700 hover:text-gray-900">
                             Experience
                         </Link>
-                        <Link href="#projects" className="py-5 px-3 text-gray-700 hover:text-gray-900">
+                        <Link href="/projects" className="py-5 px-3 text-gray-700 hover:text-gray-900">
                             Projects
                         </Link>
-                        <Link href="#education" className="py-5 px-3 text-gray-700 hover:text-gray-900">
+                        <Link href="/education" className="py-5 px-3 text-gray-700 hover:text-gray-900">
                             Education
                         </Link>
                     </div>
