@@ -11,7 +11,8 @@ const Navbar2 = () => {
             <Toolbar>
                 <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Link href="/">
-                        <Typography variant="h6" color="white" sx={{ fontWeight: 'bold' }}>
+                        <Typography variant="h6" color="white"
+                            sx={{ fontWeight: 'bold', ':hover': { backgroundColor: 'primary', opacity: 0.7 } }}>
                             Daniel Caceres
                         </Typography>
                     </Link>
@@ -19,7 +20,7 @@ const Navbar2 = () => {
                 <Box sx={{ display: 'flex', gap: 2 }}>
                     {['about', 'skills', 'experience', 'projects', 'education'].map((page) => (
                         <Link key={page} href={`/${page}`}>
-                            <Button color="inherit">
+                            <Button color="inherit" sx={{ ':hover': { backgroundColor: 'primary', opacity: 0.7 } }}>
                                 <Typography variant="button">
                                     {page}
                                 </Typography>
