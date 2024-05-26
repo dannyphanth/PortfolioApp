@@ -7,11 +7,11 @@ import { Box } from '@mui/material';
 
 const Navbar2 = () => {
     return (
-        <AppBar position="sticky" color="default" elevation={4}>
+        <AppBar position="sticky" color="primary" elevation={4}>
             <Toolbar>
                 <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Link href="/">
-                        <Typography variant="h6" color="textPrimary" sx={{ fontWeight: 'bold' }}>
+                        <Typography variant="h6" color="white" sx={{ fontWeight: 'bold' }}>
                             Daniel Caceres
                         </Typography>
                     </Link>
